@@ -8,13 +8,23 @@
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-    char estado;
-    char codigocarta[30];
-    char nomecidade[30];
-    int populacao;
-    float area;
-    float pib;
-    int pontosturisticos;
+    //Variáveis para a Carta 1
+    char estado1;
+    char codigocarta1[4];
+    char nomecidade1[50];
+    int populacao1;
+    float area1;
+    float pib1;
+    int pontosturisticos1;
+
+    //Variáveis para a Carta 2
+    char estado2;
+    char codigocarta2[4];
+    char nomecidade2[50];
+    int populacao2;
+    float area2;
+    float pib2;
+    int pontosturisticos2;
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
@@ -26,26 +36,48 @@ int main() {
     // scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
-    printf("Digite seu Estado: \n");
-    scanf("%s", &estado);
+    printf("Digite seu Estado (UMA LETRA): \n");
+    scanf(" %c", &estado1);
 
     printf("Digite o código da carta: \n");
-    scanf("%s", &codigocarta);
+    scanf("%s", codigocarta1);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &nomecidade);
+    scanf("%s", nomecidade1);
 
     printf("Digite o número de habitantes da cidade: \n");
-    scanf("%d", &populacao);
+    scanf("%d", &populacao1);
 
     printf("Digite a área da cidade em quilômetros quadrados: \n");
-    scanf("%f", &area);
+    scanf("%f", &area1);
 
     printf("Digite o PIB da cidade: \n");
-    scanf("%f", &pib);
+    scanf("%f", &pib1);
 
     printf("Digite a quantidade de pontos turísticos na cidade: \n");
-    scanf("%d", &pontosturisticos);
+    scanf("%d", &pontosturisticos1);
+
+    printf("Digite seu Estado (UMA LETRA): \n");
+    scanf(" %c", &estado2);
+
+    printf("Digite o código da carta: \n");
+    scanf("%s", codigocarta2);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", nomecidade2);
+
+    printf("Digite o número de habitantes da cidade: \n");
+    scanf("%d", &populacao2);
+
+    printf("Digite a área da cidade em quilômetros quadrados: \n");
+    scanf("%f", &area2);
+
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pib2);
+
+    printf("Digite a quantidade de pontos turísticos na cidade: \n");
+    scanf("%d", &pontosturisticos2);
+
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
