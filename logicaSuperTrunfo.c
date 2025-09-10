@@ -78,13 +78,21 @@ int main() {
     printf("Digite a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &pontosturisticos2);
 
-    printf("Estado: %c", estado1);
-    printf("Código da carta: %s", codigocarta1);
-    printf("Nome da cidade: %[^\n]", nomecidade1);
-    printf("Número de habitantes: %d", populacao1);
-    printf("Área da cidade: %f", area1);
-    printf("PIB da cidade: %f", pib1);
-    printf("Pontos turísticos: %d", pontosturisticos1);
+    printf("Estado: %c\n", estado1);
+    printf("Código da carta: %s\n", codigocarta1);
+    printf("Nome da cidade: %s\n", nomecidade1);
+    printf("Número de habitantes: %d\n", populacao1);
+    printf("Área da cidade: %f\n", area1);
+    printf("PIB da cidade: %f\n", pib1);
+    printf("Pontos turísticos: %d\n", pontosturisticos1);
+
+    printf("Estado: %c\n", estado2);
+    printf("Código da carta: %s\n", codigocarta2);
+    printf("Nome da cidade: %s\n", nomecidade2);
+    printf("Número de habitantes: %d\n", populacao2);
+    printf("Área da cidade: %f\n", area2);
+    printf("PIB da cidade: %f\n", pib2);
+    printf("Pontos turísticos: %d\n", pontosturisticos2);
 
 
     // Comparação de Cartas:
