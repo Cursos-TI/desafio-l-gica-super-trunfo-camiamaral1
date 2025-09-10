@@ -43,7 +43,7 @@ int main() {
     scanf("%s", codigocarta1);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", nomecidade1);
+    scanf(" %[^\n]", nomecidade1);
 
     printf("Digite o número de habitantes da cidade: \n");
     scanf("%d", &populacao1);
@@ -64,7 +64,7 @@ int main() {
     scanf("%s", codigocarta2);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", nomecidade2);
+    scanf(" %[^\n]", nomecidade2);
 
     printf("Digite o número de habitantes da cidade: \n");
     scanf("%d", &populacao2);
@@ -77,6 +77,14 @@ int main() {
 
     printf("Digite a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &pontosturisticos2);
+
+    printf("Estado: %c", estado1);
+    printf("Código da carta: %s", codigocarta1);
+    printf("Nome da cidade: %[^\n]", nomecidade1);
+    printf("Número de habitantes: %d", populacao1);
+    printf("Área da cidade: %f", area1);
+    printf("PIB da cidade: %f", pib1);
+    printf("Pontos turísticos: %d", pontosturisticos1);
 
 
     // Comparação de Cartas:
